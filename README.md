@@ -1,6 +1,7 @@
 # marketmood_api_client2283
 
-The"MarketMood API Client" is a Python package that provides a complete set of tools for analyzing market sentiment based on news data.
+"MarketMood API Client" is a Python package that provides a complete set of tools for analysing market sentiment based on news data. The package will allow users to access market sentiment data from the latest hundred news stories of any company they are interested in. Also, users can use this package to see the correlation between the sentiment score and the company's stock price.
+
 
 ## Installation
 
