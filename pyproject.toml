@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "marketmood_api_client2283"
+version = "0.1.0"
+description = "The MarketMood API Client is a Python package that provides a complete set of tools for analyzing market sentiment based on news data"
+authors = ["Mengyan Xu"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+textblob = "^0.17.1"
+vadersentiment = "^3.3.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+matplotlib-inline = "^0.1.6"
+ipython = "^8.18.1"
+yfinance = "^0.2.33"
+myst-nb = "^1.0.0"
+sphinx-autoapi = "^3.0.0"
+sphinx-rtd-theme = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+requests-mock = "^1.11.0"
+sphinx = "^7.2.6"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
